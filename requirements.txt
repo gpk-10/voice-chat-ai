@@ -1,0 +1,35 @@
+# 语音对话AI系统 - Python依赖包
+
+# 核心依赖
+numpy>=1.21.0
+sounddevice>=0.4.5
+
+# 语音识别 (SenseVoice)
+torch>=2.0.0        # PyTorch (funasr依赖)
+torchaudio>=2.0.0   # PyTorch音频处理 (funasr依赖)
+funasr>=1.0.0
+
+# 语音活动检测
+webrtcvad>=2.0.10
+
+# AI对话 (DeepSeek)
+langchain-core>=0.1.0
+langchain-deepseek>=0.1.0
+langgraph>=0.1.0
+
+# TTS语音合成
+edge-tts>=6.1.0
+
+# 系统工具
+pathlib2; python_version<"3.4"
+typing; python_version<"3.5"
+
+# 配置管理
+python-dotenv>=1.0.0  # .env文件加载
+
+# 可选依赖（音频播放增强）
+pygame>=2.0.0  # 备用音频播放器
+
+# 开发和调试
+# pytest>=6.0.0  # 取消注释以启用测试
+# black>=22.0.0   # 取消注释以启用代码格式化
