@@ -59,7 +59,7 @@ voice-chat-ai/
 
 ```bash
 # 克隆项目到本地
-git clone https://github.com/your-username/voice-chat-ai.git
+git clone https://github.com/gpk-10/voice-chat-ai.git
 cd voice-chat-ai
 ```
 
