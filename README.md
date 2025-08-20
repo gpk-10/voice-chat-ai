@@ -43,8 +43,7 @@ voice-chat-ai/
     ├── venv/                   # Python虚拟环境 (执行安装脚本自动创建)
     ├── recording_cache/        # 录音文件缓存 (自动清理)
     ├── tts_cache/              # TTS音频缓存 (自动清理)
-    ├── conversations/          # 对话记录存储
-    └── __pycache__/            # Python字节码缓存
+    └── conversations/          # 对话记录存储
 ```
 
 ## 🚀 快速开始
